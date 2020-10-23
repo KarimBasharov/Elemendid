@@ -14,22 +14,24 @@ namespace Elemendid
     {
         public Esmaspaev()
         {
-            Button Tbl_btn = new Button { Text = "Teisipäev" };
+            /*Button Tbl_btn = new Button { Text = "Teisipäev" };
             StackLayout st = new StackLayout();
             st.Children.Add(Tbl_btn);
             Tbl_btn.Clicked += Tbl_btn_Clicked;
+
             Button Tbl_btn2 = new Button { Text = "Kolmapäev" };
             Tbl_btn2.Clicked += Tbl_btn2_Clicked;
             st.Children.Add(Tbl_btn2);
+
             Button tagasi_btn = new Button { Text = "Tagasi" };
             tagasi_btn.HorizontalOptions = LayoutOptions.StartAndExpand;
             tagasi_btn.VerticalOptions = LayoutOptions.End;
             tagasi_btn.Clicked += Tagasi_btn_Clicked;
             st.Children.Add(tagasi_btn);
-            Content = st;
+            Content = st;*/
         }
 
-        private async void Tagasi_btn_Clicked(object sender, EventArgs e)
+        /*private async void Tagasi_btn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
         }
@@ -42,7 +44,7 @@ namespace Elemendid
         private async void Tbl_btn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Teisipaev());
-        }
+        }*/
 
     }
 }

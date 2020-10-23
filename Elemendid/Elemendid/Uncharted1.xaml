@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Elemendid.Uncharted1"
+             Title="Uncharted1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lbl1" FontSize="Large" Text="Uncharted: Drake's Fortune"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="CenterAndExpand"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/ru/5/5b/Uncharted_Drake%27s_Fortune_box_art.jpg"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
