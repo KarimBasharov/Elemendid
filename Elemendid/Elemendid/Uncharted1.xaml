@@ -5,7 +5,7 @@
              Title="Uncharted1">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="lbl1" FontSize="Large" Text="Uncharted: Drake's Fortune"
+            <Label x:Name="lbl1" FontSize="Large" Text="Uncharted: Drake's Fortune (Picker)"
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="CenterAndExpand"/>
             <Image Source="https://upload.wikimedia.org/wikipedia/ru/5/5b/Uncharted_Drake%27s_Fortune_box_art.jpg"/>
